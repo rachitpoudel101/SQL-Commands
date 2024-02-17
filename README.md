@@ -25,14 +25,14 @@ In the context of computing, a **database** is a structured collection of data t
 **SQL** is used to insert, search, update, and delete database records.
 
 ## Some of The Most Important SQL Commands
-**SELECT** - extracts data from a database
-**UPDATE** - updates data in a database
-**DELETE** - deletes data from a database
-**INSERT INTO** - inserts new data into a database
-**CREATE DATABASE** - creates a new database
-**ALTER DATABASE** - modifies a database
-**CREATE TABLE** - creates a new table
-**ALTER TABLE** - modifies a table
-**DROP TABLE** - deletes a table
-**CREATE INDEX** - creates an index (search key)
-**DROP INDEX** - deletes an index
+1. **SELECT** - extracts data from a database 
+2. **UPDATE** - updates data in a database
+3. **DELETE** - deletes data from a database
+4. **INSERT INTO** - inserts new data into a database
+5. **CREATE DATABASE** - creates a new database
+6. **ALTER DATABASE** - modifies a database
+7. **CREATE TABLE** - creates a new table
+8. **ALTER TABLE** - modifies a table
+9. **DROP TABLE** - deletes a table
+10. **CREATE INDEX** - creates an index (search key)
+11. **DROP INDEX** - deletes an index
