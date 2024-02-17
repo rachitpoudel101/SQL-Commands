@@ -28,6 +28,10 @@ INSERT INTO users (name, email) VALUES ('<NAME>', '<EMAIL>');
 -- To select data from a table, use the SELECT statement:
 SELECT * FROM users;
 
+--The MySQL AND, OR and NOT Operators
+
+SELECT * FROM users WHERE id = 1 OR id = 2;
+
 -- To update data in a table, use the UPDATE statement:
 
 UPDATE users SET name = '<NAME>' WHERE id = 1;
