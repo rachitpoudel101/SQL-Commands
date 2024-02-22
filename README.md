@@ -45,3 +45,13 @@ The **AND and OR operators** are used to filter records based on more than one c
 The **AND operator** displays a record if all the conditions separated by AND are TRUE.
 The **OR operator** displays a record if any of the conditions separated by OR is TRUE.
 The **NOT operator** displays a record if the condition(s) is NOT TRUE.
+
+In **SQL**, a **JOIN statement** is used to combine rows from two or more tables based on a related column between them. The JOIN operation creates a temporary table by combining the rows of two or more tables based on a related column between them. This related column is typically a foreign key that establishes a relationship between the tables.
+
+## Here are the common types of JOIN statements used in SQL queries:
+
+1. **INNER JOIN:** Returns rows when there is at least one match in both tables based on the join condition.
+2. **LEFT JOIN:** Returns all rows from the left table (table1) and the matched rows from the right table (table2). If there is no match, the    result is NULL on the right side.
+3. **RIGHT JOIN:** Returns all rows from the right table (table2) and the matched rows from the left table (table1). If there is no match, the result is NULL on the left side.
+4. **FULL JOIN:** Returns rows when there is a match in one of the tables. It combines the results of both LEFT JOIN and RIGHT JOIN.
+5. **CROSS JOIN:** Returns the Cartesian product of the two tables, meaning it returns all possible combinations of rows from both tables.
