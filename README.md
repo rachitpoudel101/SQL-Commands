@@ -55,3 +55,6 @@ In **SQL**, a **JOIN statement** is used to combine rows from two or more tables
 3. **RIGHT JOIN:** Returns all rows from the right table (table2) and the matched rows from the left table (table1). If there is no match, the result is NULL on the left side.
 4. **FULL JOIN:** Returns rows when there is a match in one of the tables. It combines the results of both LEFT JOIN and RIGHT JOIN.
 5. **CROSS JOIN:** Returns the Cartesian product of the two tables, meaning it returns all possible combinations of rows from both tables.
+## Sub Queries:
+
+**Subqueries**, also known as nested queries or inner queries, are SQL queries embedded within another SQL query. They allow you to retrieve data based on criteria derived from the result of another query. Subqueries can be used in various parts of a SQL statement, such as the SELECT, FROM, WHERE, and HAVING clauses.

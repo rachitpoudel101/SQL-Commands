@@ -12,11 +12,20 @@ SHOW DATABASES;
 
 --Create a Table: Use the CREATE TABLE statement to define the structure of your table.
 
-CREATE TABLE users (
+CREATE TABLE premium_users (
     id INT NOT NULL AUTO_INCREMENT,
-    name VARCHAR(255) NOT NULL,
-    email VARCHAR(255) NOT NULL,
-    PRIMARY KEY (id));
+    user_id INT NOT NULL,
+    premium_status VARCHAR(50) NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+-- SUB queries are used in conjunction with other SQL statements to create more complex operations. They can be embedded within SELECT  statements.
+INSERT INTO premium_users (user_id, premium_status)
+SELECT id, 'Active'
+FROM users
+WHERE email LIKE '%@example.com';
+
     
 -- To show the tables We use the SHOW statement:
 SHOW TABLES;
