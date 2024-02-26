@@ -49,3 +49,11 @@ FULL JOIN departments d ON e.department_id = d.department_id;
 SELECT e.employee_name, d.department_name
 FROM employees e
 CROSS JOIN departments d;
+
+
+SELECT name, department
+FROM employees
+UNION
+SELECT name, department
+FROM contractors;
+

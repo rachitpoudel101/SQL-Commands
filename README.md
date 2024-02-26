@@ -58,3 +58,8 @@ In **SQL**, a **JOIN statement** is used to combine rows from two or more tables
 ## Sub Queries:
 
 **Subqueries**, also known as nested queries or inner queries, are SQL queries embedded within another SQL query. They allow you to retrieve data based on criteria derived from the result of another query. Subqueries can be used in various parts of a SQL statement, such as the SELECT, FROM, WHERE, and HAVING clauses.
+
+## Union
+**In SQL, the UNION** operator is used to combine the results of two or more SELECT statements into a single result set. The UNION operator removes duplicate rows by default
+
+Each SELECT statement within the UNION must have the same number of columns with similar data types in the same order. If the data types don't match, the UNION operation will fail. Also, it's important to note that UNION removes duplicate rows, while UNION ALL retains duplicate rows.
